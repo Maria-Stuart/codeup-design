@@ -37,6 +37,28 @@ h4 {
 font-size: 28px;
 }
 p {
-    background-color: var(--main-rd-color);
+    /*background-color: var(--main-rd-color);*/
 }
-
+.circle-button {
+    border-radius: 100px;
+    /*width: 100%;*/
+    border: 10px solid white;
+    width: 200px;
+    height: 200px;
+    /*position: relative;*/
+}
+h3 .circle-button{
+    line-height: 75px;
+}
+.red-button{
+    background-color: #E6563B;
+}
+.orange-button{
+    background-color: var(--main-og-color);
+}
+.green-button{
+    background-color: var(--main-gn-color);
+}
+.blue-button{
+    background-color: var(--main-tl-color);
+}
