@@ -1,0 +1,42 @@
+:root {
+    --main-rd-color: #E6563B;
+    --main-og-color: rgb(235 156 59);
+    --main-gn-color: #7CB06C;
+    --main-tl-color: #00ABA9;
+    --main-lg-color: #F0F0F0;
+    --main-dg-color: #E6E6E6;
+}
+.main-logo {
+    height: 105px;
+    width: 105px;
+}
+body {
+    font-family: 'Abel', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Anton', sans-serif;
+}
+h1 {
+font-size: 64px;
+}
+h2 {
+font-size: 48px;
+}
+h3 {
+font-size: 40px;
+}
+h4 {
+font-size: 32px;
+}
+h4 {
+font-size: 28px;
+}
+p {
+    background-color: var(--main-rd-color);
+}
+
