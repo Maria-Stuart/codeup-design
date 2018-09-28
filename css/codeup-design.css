@@ -58,15 +58,15 @@ p {
 h3 .circle-button{
     line-height: 75px;
 }
-.red-button{
+.rd-bg{
     background-color: #E6563B;
 }
-.orange-button{
+.oj-bg{
     background-color: var(--main-og-color);
 }
-.green-button{
+.gn-bg{
     background-color: var(--main-gn-color);
 }
-.blue-button{
+.bl-bg{
     background-color: var(--main-tl-color);
 }
