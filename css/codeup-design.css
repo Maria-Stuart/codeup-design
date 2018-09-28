@@ -16,6 +16,9 @@ body {
 }
 /*Changed background color to design gray*/
 .dg-background{
+    background-color: var(--main-lg-color);
+}
+.lg-background{
     background-color: var(--main-dg-color);
 }
 

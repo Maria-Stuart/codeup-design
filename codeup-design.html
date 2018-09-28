@@ -11,14 +11,21 @@
 <body>
     <div class="dg-background">
         <div class="container">
-            <div class="text-center">
-                <h1 class="">VISUAL DESIGN & WEB DEVELOPMENT</h1>
-            </div>
-            <div class="text-center">
-                <h2>FROM PARK CITY, UTAH</h2>
+            <!--Put h1 in a row and column to make it easier to move around. Used margin for spacing.-->
+            <div class="row pb-3">
+                <div class="col-12 text-center">
+                    <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
+                </div>
             </div>
 
-            <div class="row">
+            <!--Row 2-->
+            <div class="row mt-5 mb-5">
+                <div class="col-12 text-center">
+                    <h2>FROM PARK CITY, UTAH</h2>
+                </div>
+            </div>
+            <!--Row 3-->
+            <div class="row mb-5 pb-5">
                 <div class="col-6 col-sm-3">
                     <h3>
                         <div class="circle-button red-button text-center text-white pt-5">
@@ -48,19 +55,40 @@
                     </h3>
                 </div>
             </div>
-            <div class="text-center">
-                <p>SELECTED WORK</p>
-            </div>
-            <div>
-                <div class="card">
-                    <img src="images/apple-ipad.jpg" alt="computer">
-                </div>
-                <div>
-                    <p>FEATURED PROJECT</p>
+
+            <!--created another row to format the Selected Work text and make it easier to move around.
+                Added padding and margin on top to push it as far down as possible.-->
+            <!--Row 4-->
+            <div class="row mt-5 pt-5">
+                <div class="col-12 text-center">
+                    <p>SELECTED WORK</p>
                 </div>
             </div>
-            <div class="card">
-                <img class="card-img-top" src="images/apple-ipad.jpg" alt="Card image cap">
+
+            <!--Put image in a card and gave the border the dark gray color.
+                Made image fluid to make it responsive. Took away card border to
+                match the design and used padding and margin for spacing.-->
+            <!--Row 5-->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card p-2 ml-4 mr-4 mt-4 mb-2 lg-background border-0">
+                        <img class="card-img-top img-fluid" src="images/apple-ipad.jpg" alt="Card image cap">
+                    </div>
+                </div>
+            </div>
+
+            <!--Row 6-->
+            <!--Currently working on using flex box to space out items-->
+            <div class="row pb-5">
+                <div class="col-12">
+                    <div class="col-3">
+                        FEATURED PROJECT
+                    </div>
+                    <div class="col-3 offset-1">
+                        ICONS
+                    </div>
+                </div>
+
             </div>
 
 
