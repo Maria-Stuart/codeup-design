@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="dg-background">
-        <div class="container">
+        <div class="container container-desktop">
             <!--Put h1 in a row and column to make it easier to move around. Used margin for spacing.-->
             <div class="row pb-3">
                 <div class="col-12 text-center">
@@ -26,8 +26,8 @@
                 </div>
             </div>
             <!--Row 3-->
-            <div class="row mb-5 pb-5">
-                <div class="col-6 col-md-3">
+            <div class="d-flex justify-content-around row mb-5 mb-sm-0 pb-sm-0 pb-5">
+                <div class="col-5 offset-1 offset-md-0 col-md-3 ">
                     <h3>
                         <div class="circle-button rd-bg text-center text-white pt-5">
                             Design
@@ -41,7 +41,7 @@
                         </div>
                     </h3>
                 </div>
-                <div class="col-6 col-md-3">
+                <div class="col-5 offset-1 offset-md-0 col-md-3">
                     <h3>
                         <div class="circle-button gn-bg text-center text-white pt-5">
                             Support
@@ -56,7 +56,11 @@
                     </h3>
                 </div>
             </div>
-
+            <div class="row">
+                <div class="col-md-10 col-lg-12 mx-auto">
+                    <hr class="d-none d-md-block bg-dg">
+                </div>
+            </div>
 
 
             <!--Put image in a card and gave the border the dark gray color.
@@ -70,8 +74,8 @@
                 Added padding and margin on top to push it as far down as possible.-->
             <!--OPENS IMAGES COLUMN: Contains all the images + selected work-->
             <div class="row">
-                <div class="col-md-7">
-                    <div class="row mt-5 pt-5 m-md-0 p-md-0">
+                <div class="col-lg-7">
+                    <div class="row mt-5 pt-5 m-md-0 p-md-0 ">
                         <div class="col-12 text-center">
                             <p>SELECTED WORK</p>
                         </div>
@@ -176,7 +180,7 @@
                 <!--CLOSES IMAGES COLUMN: Contains all the images + selected work-->
 
                 <!--START OF MEDIA COLUMN-->
-                <div class="col-5"><!--Row 1: The Last Title -->
+                <div class="col-5 d-none d-lg-block"><!--Row 1: The Last Title -->
                     <div class="row mb-4">
                         <div class="col-12 text-left">
                             <p>THE LAST</p>
