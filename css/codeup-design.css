@@ -15,6 +15,7 @@ body {
     font-size: 1.5em;
 }
 /*Changed background color to design gray*/
+/*these colors are fucked change background color and card color*/
 .dg-background{
     background-color: var(--main-lg-color);
 }
@@ -46,6 +47,17 @@ font-size: 28px;
 }
 p {
     /*background-color: var(--main-rd-color);*/
+}
+.twitter-height {
+    height: 2em;
+    width: auto;
+}
+.twitter-color{
+    rgb(0 156 251);
+}
+.thumbnail-dimension {
+    width: 75px;
+    height: 75px;
 }
 .circle-button {
     border-radius: 100px;

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Abel|Anton" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/codeup-design.css">
     <title>Codeup design</title>
 </head>
@@ -26,28 +27,28 @@
             </div>
             <!--Row 3-->
             <div class="row mb-5 pb-5">
-                <div class="col-6 col-sm-3">
+                <div class="col-6 col-md-3">
                     <h3>
                         <div class="circle-button rd-bg text-center text-white pt-5">
                             Design
                         </div>
                     </h3>
                 </div>
-                <div class="col-6 col-sm-3">
+                <div class="col-6 col-md-3">
                     <h3>
                         <div class="circle-button oj-bg text-center text-white pt-5">
                             Develop
                         </div>
                     </h3>
                 </div>
-                <div class="col-6 col-sm-3">
+                <div class="col-6 col-md-3">
                     <h3>
                         <div class="circle-button gn-bg text-center text-white pt-5">
                             Support
                         </div>
                     </h3>
                 </div>
-                <div class="col-6 col-sm-3">
+                <div class="col-6 col-md-3">
                     <h3>
                         <div class="circle-button bl-bg text-center text-white pt-5">
                             Host
@@ -56,121 +57,185 @@
                 </div>
             </div>
 
-            <!--created another row to format the Selected Work text and make it easier to move around.
-                Added padding and margin on top to push it as far down as possible.-->
-            <!--Row 4-->
-            <div class="row mt-5 pt-5">
-                <div class="col-12 text-center">
-                    <p>SELECTED WORK</p>
-                </div>
-            </div>
+
 
             <!--Put image in a card and gave the border the dark gray color.
                 Made image fluid to make it responsive. Took away card border to
                 match the design and used padding and margin for spacing.-->
-            <!--Row 5-->
+
+            <!--Row 4: Nested grid to make images and separate images from media feed. The images and selected work should be in the same
+                column so that they move together-->
             <!--picture 1-->
+            <!--created another row to format the Selected Work text and make it easier to move around.
+                Added padding and margin on top to push it as far down as possible.-->
+            <!--OPENS IMAGES COLUMN: Contains all the images + selected work-->
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-7">
+                    <div class="row mt-5 pt-5 m-md-0 p-md-0">
+                        <div class="col-12 text-center">
+                            <p>SELECTED WORK</p>
+                        </div>
+                    </div>
                     <div class="row">
-                        <div class="col-12">
-                            <div class="card p-2 ml-3 mr-3 mt-4 mb-2 lg-background border-0">
-                                <img class="card-img-top img-fluid" src="images/apple-ipad.jpg" alt="Card image cap">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card p-2 ml-3 mr-3 mt-4 mb-2 lg-background border-0">
+                                        <img class="card-img-top img-fluid" src="images/apple-ipad.jpg" alt="Card image cap">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="row pb-5 justify-content-center">
+                                    <div class="col-11 ml-4 mr-4 d-flex justify-content-between">
+                                        <p>FEATURED PROJECT</p>
+                                        <div class="d-flex d-inline">
+                                            <h5><span class="badge badge-pill rd-bg pr-2 pl-2 mr-1">D</span></h5>
+                                            <h5><span class="badge badge-pill oj-bg pr-2 pl-2 mr-1">D</span></h5>
+                                            <h5><span class="badge badge-pill gn-bg pr-2 pl-2 mr-1">S</span></h5>
+                                            <h5><span class="badge badge-pill bl-bg pr-2 pl-2 mr-1">H</span></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--picture 2-->
+                        <div class="d-none d-md-block col-md-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card p-2 ml-3 mr-3 mt-4 mb-2 lg-background border-0">
+                                        <img class="card-img-top img-fluid" src="images/macbook.jpg" alt="Card image cap">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="row pb-5 justify-content-center">
+                                    <div class="col-11 ml-4 mr-4 d-flex justify-content-between">
+                                        FEATURED PROJECT
+                                        <div class="d-flex d-inline">
+                                            <h5><span class="badge badge-pill rd-bg pr-2 pl-2 mr-1">D</span></h5>
+                                            <h5><span class="badge badge-pill oj-bg pr-2 pl-2 mr-1">D</span></h5>
+                                            <h5><span class="badge badge-pill gn-bg pr-2 pl-2 mr-1">S</span></h5>
+                                            <h5><span class="badge badge-pill bl-bg pr-2 pl-2 mr-1">H</span></h5>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <!--Row 6-->
-                    <div>
-                        <div class="row pb-5 justify-content-center">
-                            <div class="col-11 ml-4 mr-4 d-flex justify-content-between">
-                                FEATURED PROJECT
-                                <div class="d-flex d-inline">
-                                    <h5><span class="badge badge-pill rd-bg pr-2 pl-2 mr-1">D</span></h5>
-                                    <h5><span class="badge badge-pill oj-bg pr-2 pl-2 mr-1">D</span></h5>
-                                    <h5><span class="badge badge-pill gn-bg pr-2 pl-2 mr-1">S</span></h5>
-                                    <h5><span class="badge badge-pill bl-bg pr-2 pl-2 mr-1">H</span></h5>
+                    <!--picture 3-->
+                    <div class="row">
+                        <div class="d-none d-md-block col-md-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card p-2 ml-3 mr-3 mt-4 mb-2 lg-background border-0">
+                                        <img class="card-img-top img-fluid" src="images/man.jpg" alt="Card image cap">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="row pb-5 justify-content-center">
+                                    <div class="col-11 ml-4 mr-4 d-flex justify-content-between">
+                                        FEATURED PROJECT
+                                        <div class="d-flex d-inline">
+                                            <h5><span class="badge badge-pill rd-bg pr-2 pl-2 mr-1">D</span></h5>
+                                            <h5><span class="badge badge-pill oj-bg pr-2 pl-2 mr-1">D</span></h5>
+                                            <h5><span class="badge badge-pill gn-bg pr-2 pl-2 mr-1">S</span></h5>
+                                            <h5><span class="badge badge-pill bl-bg pr-2 pl-2 mr-1">H</span></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--picture 4-->
+                        <div class="d-none d-md-block col-md-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card p-2 ml-3 mr-3 mt-4 mb-2 lg-background border-0">
+                                        <img class="card-img-top img-fluid" src="images/security.jpg" alt="Card image cap">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Row 6-->
+                            <div>
+                                <div class="row pb-5 justify-content-center">
+                                    <div class="col-11 ml-4 mr-4 d-flex justify-content-between">
+                                        FEATURED PROJECT
+                                        <div class="d-flex d-inline">
+                                            <h5><span class="badge badge-pill rd-bg pr-2 pl-2 mr-1">D</span></h5>
+                                            <h5><span class="badge badge-pill oj-bg pr-2 pl-2 mr-1">D</span></h5>
+                                            <h5><span class="badge badge-pill gn-bg pr-2 pl-2 mr-1">S</span></h5>
+                                            <h5><span class="badge badge-pill bl-bg pr-2 pl-2 mr-1">H</span></h5>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--picture 2-->
-                <div class="d-none d-sm-block col-md-6">
-                    <div class="row">
+                <!--CLOSES IMAGES COLUMN: Contains all the images + selected work-->
+
+                <!--START OF MEDIA COLUMN-->
+                <div class="col-5"><!--Row 1: The Last Title -->
+                    <div class="row mb-4">
+                        <div class="col-12 text-left">
+                            <p>THE LAST</p>
+                        </div>
+                    </div>
+                    <!--row 2: phone image-->
+                    <div class="row mb-5">
                         <div class="col-12">
-                            <div class="card p-2 ml-3 mr-3 mt-4 mb-2 lg-background border-0">
-                                <img class="card-img-top img-fluid" src="images/macbook.jpg" alt="Card image cap">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-thumbnail img-fluid thumbnail-dimension dg-background b-0" src="images/mobile-phone.jpg" alt="Card image cap">
+                                </div>
+                                <div class="col-8">
+                                    <h4>THE ADMIN BAR AND ABSOLUTE POSITIONING</h4>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <!--Row 6-->
-                    <div>
-                        <div class="row pb-5 justify-content-center">
-                            <div class="col-11 ml-4 mr-4 d-flex justify-content-between">
-                                FEATURED PROJECT
-                                <div class="d-flex d-inline">
-                                    <h5><span class="badge badge-pill rd-bg pr-2 pl-2 mr-1">D</span></h5>
-                                    <h5><span class="badge badge-pill oj-bg pr-2 pl-2 mr-1">D</span></h5>
-                                    <h5><span class="badge badge-pill gn-bg pr-2 pl-2 mr-1">S</span></h5>
-                                    <h5><span class="badge badge-pill bl-bg pr-2 pl-2 mr-1">H</span></h5>
+                    <!--row 3: head drawing image-->
+                    <div class="row mb-5">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-thumbnail thumbnail-dimension img-fluid dg-background b-0" src="images/head.jpg" alt="Card image cap">
+                                </div>
+                                <div class="col-8">
+                                    <h4>NIBBLER AWESOME WEBSITE TESTING</h4>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <!--row 4: ipad image-->
+                    <div class="row mb-5">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-thumbnail thumbnail-dimension img-fluid dg-background b-0" src="images/ipad.jpg" alt="Card image cap">
+                                </div>
+                                <div class="col-8">
+                                    <h4>HOW TO GET GOOGLE TO LIKE YOU</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p><i class="fab fa-twitter twitter-height twitter-color "></i> LAST TWEET</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores fuga nam officia provident,
+                                quaerat. Aliquid, amet assumenda ex harum labore laudantium mollitia nostrum perspiciatis, quae quis, quo
+                                reiciendis voluptatibus?
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--picture 3-->
-            <div class="row">
-                <div class="d-none d-sm-block col-md-6">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="card p-2 ml-3 mr-3 mt-4 mb-2 lg-background border-0">
-                                <img class="card-img-top img-fluid" src="images/man.jpg" alt="Card image cap">
-                            </div>
-                        </div>
-                    </div>
-                    <!--Row 6-->
-                    <div>
-                        <div class="row pb-5 justify-content-center">
-                            <div class="col-11 ml-4 mr-4 d-flex justify-content-between">
-                                FEATURED PROJECT
-                                <div class="d-flex d-inline">
-                                    <h5><span class="badge badge-pill rd-bg pr-2 pl-2 mr-1">D</span></h5>
-                                    <h5><span class="badge badge-pill oj-bg pr-2 pl-2 mr-1">D</span></h5>
-                                    <h5><span class="badge badge-pill gn-bg pr-2 pl-2 mr-1">S</span></h5>
-                                    <h5><span class="badge badge-pill bl-bg pr-2 pl-2 mr-1">H</span></h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--picture 4-->
-                <div class="d-none d-sm-block col-md-6">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="card p-2 ml-3 mr-3 mt-4 mb-2 lg-background border-0">
-                                <img class="card-img-top img-fluid" src="images/security.jpg" alt="Card image cap">
-                            </div>
-                        </div>
-                    </div>
-                    <!--Row 6-->
-                    <div>
-                        <div class="row pb-5 justify-content-center">
-                            <div class="col-11 ml-4 mr-4 d-flex justify-content-between">
-                                FEATURED PROJECT
-                                <div class="d-flex d-inline">
-                                    <h5><span class="badge badge-pill rd-bg pr-2 pl-2 mr-1">D</span></h5>
-                                    <h5><span class="badge badge-pill oj-bg pr-2 pl-2 mr-1">D</span></h5>
-                                    <h5><span class="badge badge-pill gn-bg pr-2 pl-2 mr-1">S</span></h5>
-                                    <h5><span class="badge badge-pill bl-bg pr-2 pl-2 mr-1">H</span></h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
 
 
 
