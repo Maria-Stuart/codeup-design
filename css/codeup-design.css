@@ -6,6 +6,16 @@
     --main-lg-color: #F0F0F0;
     --main-dg-color: #E6E6E6;
 }
+a:visited{
+    color: black;
+}
+brand-size{
+    font-size: 2em;
+}
+.wordposition{
+    position: relative;
+    top: -10px;
+}
 .main-logo {
     height: 105px;
     width: 105px;
