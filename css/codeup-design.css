@@ -86,3 +86,17 @@ h3 .circle-button{
 .container-desktop {
     max-width: 1100px;
 }
+
+
+/*The following is work to make the buttons more mobile friendly by making them smaller
+for a xs screen*/
+/*@media screen and (max-width: 565px) {*/
+    /*.circle-button {*/
+        /*border-radius: 50px;*/
+        /*!*width: 100%;*!*/
+        /*border: 10px solid white;*/
+        /*width: 150px;*/
+        /*height: 150px;*/
+        /*!*position: relative;*!*/
+    /*}*/
+/*}*/
