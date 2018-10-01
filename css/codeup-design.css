@@ -24,8 +24,6 @@ body {
     font-family: 'Abel', sans-serif;
     /*font-size: 1.2em;*/
 }
-/*Changed background color to design gray*/
-/*these colors are fucked change background color and card color*/
 .dg-background{
     background-color: var(--main-dg-color);
 }
